@@ -21,19 +21,19 @@ type DetectsParentDetails struct {
 
 	// parent cmdline
 	// Required: true
-	ParentCmdline *string `json:"parent_cmdline"`
+	ParentCmdline *string `json:"cmdline"`
 
 	// parent md5
 	// Required: true
-	ParentMd5 *string `json:"parent_md5"`
+	ParentMd5 *string `json:"md5"`
 
 	// parent process graph id
 	// Required: true
-	ParentProcessGraphID *string `json:"parent_process_graph_id"`
+	ParentProcessGraphID *string `json:"process_graph_id"`
 
 	// parent sha256
 	// Required: true
-	ParentSha256 *string `json:"parent_sha256"`
+	ParentSha256 *string `json:"sha256"`
 }
 
 // Validate validates this detects parent details
